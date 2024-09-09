@@ -1,15 +1,38 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import NotFound from './Pages/NotFound/NotFound'
+import IntroScreen from './Pages/IntroScreen/IntroScreen'
+import InstructionScreen from './Pages/InstructionScreen/InstructionScreen'
+import ActiveScreen from './Pages/ActiveScreen/ActiveScreen'
+import FinalRewordScreen from './Pages/FinalRewordScreen/FinalRewordScreen'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const routers = createBrowserRouter([
+    {
+      path: "/",
+      element: <IntroScreen />,
+      errorElement: <NotFound />
+    },
+    {
+      path: "instruction",
+      element: <InstructionScreen />,
+      errorElement: <NotFound />
+    },
+    {
+      path: "active",
+      element: <ActiveScreen />,
+      errorElement: <NotFound />
+    }, {
+      path: "rewords",
+      element: <FinalRewordScreen />,
+      errorElement: <NotFound />
+    }
+  ])
 
   return (
-    <div className='text-4xl text-red-600 capitalize'>
-      hello world
-    </div>
+    <RouterProvider router={routers} />
   )
 }
 
