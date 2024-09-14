@@ -29,8 +29,7 @@ npm run start
 - [React](https://react.dev/)
 - [TailwindCSS](https://tailwindcss.com/)
 - [Google Fonts](https://fonts.google.com/)
-- [Font Awesome](https://fontawesome.com/icons/)
 
 ## Author
 
-[Abhishek kumar](https://www.linkedin.com/in/md-ismaeel/)
+[Md Ismaeel](https://www.linkedin.com/in/md-ismaeel/)
