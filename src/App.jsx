@@ -16,16 +16,16 @@ function App() {
       errorElement: <NotFound />
     },
     {
-      path: "instruction",
+      path: "/instruction",
       element: <InstructionScreen />,
       errorElement: <NotFound />
     },
     {
-      path: "active",
+      path: "/active",
       element: <ActiveScreen />,
       errorElement: <NotFound />
     }, {
-      path: "rewords",
+      path: "/rewords",
       element: <FinalRewordScreen />,
       errorElement: <NotFound />
     }

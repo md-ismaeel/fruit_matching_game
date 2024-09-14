@@ -7,8 +7,7 @@ import goldenBtn from "../Assets/Images/goldenButton.svg";
 import banana from "../Assets/Images/banana.svg";
 import emoji from "../Assets/Images/emojiThinking.svg";
 import backGreenBtn from "../Assets/Images/backGreenBtn.svg";
-import whiteBanana from "../Assets/Images/whiteBanana.svg";
-import progressbar from "../Assets/Images/progressbar.svg";
+import ProgressBar from "./ProgressBar/ProgressBar";
 
 
 export default function IntroCards() {
@@ -105,12 +104,6 @@ export default function IntroCards() {
                 >
                     <img src={backGreenBtn} alt="back" />
                 </button>
-            )}
-            {page === 3 && (
-                <div className="absolute top-6 right-[27rem]">
-                    <img src={progressbar} alt="progress" className="relative w-[35rem] h-[2rem]" />
-                    <img src={whiteBanana} alt="whiteBanana" className="absolute w-[7rem] top-[-1rem] right-[-2rem]" />
-                </div>
             )}
         </div>
     );
