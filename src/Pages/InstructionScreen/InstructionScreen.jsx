@@ -2,12 +2,12 @@ import React from "react";
 import backgroundImage from "../../Assets/Images/bg-image.svg";
 import backGreenBtn from "../../Assets/Images/backGreenBtn.svg";
 import { useNavigate } from "react-router-dom";
-import whiteBanana from "../../Assets/Images/whiteBanana.svg";
-import progressbar from "../../Assets/Images/progressbar.svg";
 import instructionScreenBackPathDotted from "../../Assets/Images/instructionScreenBackPathDotted.svg";
 import HeartCard from "../../Components/HeartCard/HeartCard";
 import FruitCard from "../../Components/FruitCard/FruitCard";
 import "../../Components/IntroCards.css"
+import progressbar from "../../Assets/Images/progressbar.svg";
+import whiteBanana from "../../Assets/Images/whiteBanana.svg";
 import goldenBtn from "../../Assets/Images/goldenButton.svg";
 import ProgressBar from "../../Components/ProgressBar/ProgressBar";
 
@@ -206,9 +206,6 @@ export default function InstructionScreen() {
                                 }}
                             ></div>
                         </div>
-                    </div>
-                    <div className="absolute top-[3rem] left-[15rem]">
-                        {/* <ProgressBar /> */}
                     </div>
                 </div>
             </section>

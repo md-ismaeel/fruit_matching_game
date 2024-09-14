@@ -25,7 +25,7 @@ function App() {
       element: <ActiveScreen />,
       errorElement: <NotFound />
     }, {
-      path: "/rewords",
+      path: "/rewards",
       element: <FinalRewordScreen />,
       errorElement: <NotFound />
     }

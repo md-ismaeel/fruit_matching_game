@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import whiteBanana from "../../Assets/Images/whiteBanana.svg";
+import banana from "../../Assets/Images/banana.svg";
 import progressbarSvg from "../../Assets/Images/progressbar.svg";
 
 export default function ProgressBar({
@@ -59,8 +60,8 @@ export default function ProgressBar({
                 ))}
             </div>
             <img
-                src={whiteBanana}
-                className="rotate-[-23deg] absolute top-[-1.2rem] left-[36rem] w-[6rem]"
+                src={totalSteps ? banana : whiteBanana}
+                className="rotate-[-23deg] absolute top-[-2.2rem] left-[36rem] w-[6rem]"
                 onClick={updateTiles}
             />
         </section>
