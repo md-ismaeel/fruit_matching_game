@@ -2,7 +2,7 @@
 
 ## Hosted Version of the Project:
 
-[Fruits matching game project](https://brightchamps-fruits-matching-game-project.vercel.app/)
+[Fruits matching game project](https://fruit-matching-game.netlify.app/)
 
 ![](/src/Assets//Readmi/Screenshot%202024-09-14%20122228.png)
 ![](/src/Assets//Readmi/Screenshot%202024-09-14%20122250.png)
